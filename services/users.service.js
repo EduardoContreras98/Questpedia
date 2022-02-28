@@ -1,5 +1,4 @@
 const faker = require('faker');
-// eslint-disable-next-line no-unused-vars
 const boom = require('@hapi/boom');
 
 class UserService{

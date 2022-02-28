@@ -1,14 +1,16 @@
 const express = require('express');
-const app = express();
-const port = 4000;
+const routerApi = require('./routes');
+const { logErrors, boomErrorHandler, errorHandler } = require('./middlewares/error.handler');
 
-app.get('/', (req, res) =>{
-  res.json({
-    'success': true,
-    'statuscode': 200,
-    'message': 'Hola soy un endpoint'
-  })
-});
+const app = express();
+const port = 3001;
+
+app.use(express.json()); //UTILIZAREMOS JSON COMO FORMATO DE DATOS
+routerApi(app); //RUTAS DE NUESTRAS ENTIDADES
+//MIDDLEWARES => CODIGO INTERMEDIARIO (MANEJO DE ERRORES BOOM, VALIDACIONES JOI)
+app.use(logErrors);
+app.use(boomErrorHandler);
+app.use(errorHandler);
 
 app.listen(port, () => {
   // eslint-disable-next-line no-console

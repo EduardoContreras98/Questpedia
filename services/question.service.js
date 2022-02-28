@@ -46,21 +46,6 @@ class QuestionService{
     return question;
   }
 
-  update(id, changes){
-    const index = this.questions.findIndex(item => item.id === id);
-    if(index === -1)
-      throw boom.notFound('La pregunta no pudo ser encontrada');
-    var currentQuestion = this.questions[index];
-    this.questions[index] = {
-      ...currentQuestion,
-      ...changes
-    };
-    return {
-      old: currentQuestion,
-      changed: this.questions[index]
-    };
-  }
-
   delete(id){
     const index = this.questions.findIndex(item => item.id === id);
     if(index === -1)

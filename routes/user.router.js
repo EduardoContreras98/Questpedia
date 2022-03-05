@@ -1,5 +1,5 @@
 const express = require('express');
-const UserService = require('../services/users.service');
+const UserService = require('../services/user.service');
 const service = new UserService;
 const validatorHandler = require('./../middlewares/validator.handler');
 const { createUserDto, updateUserDto, getUserId } = require('../dtos/users.dto');

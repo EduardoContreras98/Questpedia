@@ -1,0 +1,134 @@
+ <div class="Noticia">
+
+                        <div class="bodyN">
+
+                          <div class="left">
+                            <h2 id= "valueV7" >0</h2>
+                            <p>Votes</p>
+                            <h2 id= "valueA7" >0</h2>
+                            <p>Answers</p>
+                          </div>
+
+                          <div class="center">
+                            <div class="title">
+                              
+                              <p id="Pregunta7">Titulo: Lorem ipsum dolor.</p>
+                            </div>
+                            <p>Descripción corta: </p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia eaque tempora minima doloribus aspernatur? 
+                              Ipsum non expedita soluta fugit? Incidunt voluptates aperiam ex quia id esse eveniet velit vitae ipsam.</p>
+                              
+                              <div class= "InfoNoticia">
+                                <p>#Utiles</p>
+                                <p>#NoUtiles</p>
+                                <p>#Respuestas</p>
+                                <p>Categorias: </p>                     
+                              </div>
+                  
+                              <div class="InfoUsuarioPreg">
+                                <div class="time">
+                                  <p>posted 1 min ago</p>
+                                </div>
+                                <div class="infoP">
+                                  <img src="/Media/default-.jpg" alt="" width="90" height="72">
+                                  <p id="User7">Usuario</p>
+                                </div>
+                              </div>
+
+                          </div>
+
+
+                        </div>
+
+          
+                      </div>
+
+                      <div class="Noticia">
+
+                        <div class="bodyN">
+
+                          <div class="left">
+                            <h2 id= "valueV8" >0</h2>
+                            <p>Votes</p>
+                            <h2 id= "valueA8" >0</h2>
+                            <p>Answers</p>
+                          </div>
+
+                          <div class="center">
+                            <div class="title">
+                              
+                              <p id="Pregunta8">Titulo: Lorem ipsum dolor.</p>
+                            </div>
+                            <p>Descripción corta: </p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia eaque tempora minima doloribus aspernatur? 
+                              Ipsum non expedita soluta fugit? Incidunt voluptates aperiam ex quia id esse eveniet velit vitae ipsam.</p>
+                              
+                              <div class= "InfoNoticia">
+                                <p>#Utiles</p>
+                                <p>#NoUtiles</p>
+                                <p>#Respuestas</p>
+                                <p>Categorias: </p>                     
+                              </div>
+                  
+                              <div class="InfoUsuarioPreg">
+                                <div class="time">
+                                  <p>posted 1 min ago</p>
+                                </div>
+                                <div class="infoP">
+                                  <img src="/Media/default-.jpg" alt="" width="90" height="72">
+                                  <p id="User8">Usuario</p>
+                                </div>
+                              </div>
+
+                          </div>
+
+
+                        </div>
+
+          
+                      </div>
+
+                      <div class="Noticia">
+
+                        <div class="bodyN">
+
+                          <div class="left">
+                            <h2 id= "valueV9" >0</h2>
+                            <p>Votes</p>
+                            <h2 id= "valueA9" >0</h2>
+                            <p>Answers</p>
+                          </div>
+
+                          <div class="center">
+                            <div class="title">
+                              
+                              <p id="Pregunta9">Titulo: Lorem ipsum dolor.</p>
+                            </div>
+                            <p>Descripción corta: </p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia eaque tempora minima doloribus aspernatur? 
+                              Ipsum non expedita soluta fugit? Incidunt voluptates aperiam ex quia id esse eveniet velit vitae ipsam.</p>
+                              
+                              <div class= "InfoNoticia">
+                                <p>#Utiles</p>
+                                <p>#NoUtiles</p>
+                                <p>#Respuestas</p>
+                                <p>Categorias: </p>                     
+                              </div>
+                  
+                              <div class="InfoUsuarioPreg">
+                                <div class="time">
+                                  <p>posted 1 min ago</p>
+                                </div>
+                                <div class="infoP">
+                                  <img src="/Media/default-.jpg" alt="" width="90" height="72">
+                                  <p id="User9">Usuario</p>
+                                </div>
+                              </div>
+
+                          </div>
+
+
+                        </div>
+
+          
+                      </div>

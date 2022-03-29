@@ -1,0 +1,35 @@
+{
+  "name": "questpedia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "star": "node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoContreras98/Questpedia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoContreras98/Questpedia/issues"
+  },
+  "homepage": "https://github.com/EduardoContreras98/Questpedia#readme",
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "faker": "^5.5.3",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "express": "^4.17.3",
+    "joi": "^17.6.0"
+  }
+}

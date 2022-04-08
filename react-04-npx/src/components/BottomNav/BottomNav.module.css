@@ -1,0 +1,65 @@
+.bottomnav{
+    position: absolute;
+    width: 100%;
+    max-width: 40;
+    
+ }
+ 
+ 
+ .bottomnav ul{
+    background: #4a4f52;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .bottomnav ul li{
+  position: relative;
+  display: inline-block;
+  margin-right: -4px;
+  text-align: center;
+ }
+ 
+ .bottomnav ul li:last-child{
+  margin: 0;
+ }
+ 
+ .bottomnav ul li a{
+    display: block;
+    background: #434444;
+    padding: 15px 20px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.2s linear;
+ }
+ 
+ .bottomnav ul li a:hover{
+   background: rgb(218, 137, 45);
+ }
+ 
+ .bottomnav ul li ul{
+     position: absolute;
+     top:  100%;
+     left: 0;
+     width: 240px;
+     border-bottom: 4px solid rgb(236, 149, 48);
+     }
+ 
+ .bottomnav ul li ul li{
+     display: block;
+     width: 100%;
+     margin: 0;
+     text-align: left;
+ }
+ 
+ .bottomnav ul li ul li a{
+     display: block;
+     background: #3a3a3a;
+     padding: 10px 15px;
+ }
+ 
+ .bottomnav ul li ul li a:hover{
+     background: #333;
+     border-left: 4px solid rgb(236, 149, 48);
+ }

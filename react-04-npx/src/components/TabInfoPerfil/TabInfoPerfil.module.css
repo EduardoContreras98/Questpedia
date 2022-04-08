@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+  a{
+    color: black;
+    text-decoration: blue;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+
+  
+  .profile-Edit img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 10px;
+  }
+  
+  .InfoPerfil{
+    display: flex;
+  }
+  
+  .InfoPerfil2{
+    display: flex;
+  }
+  
+  
+  .infoU{
+    margin-left: 20px;
+  }
+  
+  .infoU textarea{
+     width: 400px;
+  }
+  
+  .infoU button{ 
+    position: relative;
+    display: block;
+    border: none;
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    justify-content: center;
+    background: #686969;
+    color: white;
+  }
+  
+  .profile-posttab img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 10px;
+  }
+  
+  .imgBack{
+    background: linear-gradient(180deg,#b4b4b4 50%, white 50%);
+    border: rgba(0, 0, 0, 0.103) 1px solid;
+    height: 250px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn:hover{
+    background: #f39c12;
+    color: #111111;
+  }
+  
+  

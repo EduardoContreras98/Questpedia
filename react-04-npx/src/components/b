@@ -1,0 +1,19 @@
+<Dropdown>
+                        <Dropdown.Toggle variant="warning">
+                        Open Menu
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu>
+                        <Dropdown.Item href="#">
+                            Más recientes
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#">
+                            Más populares
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#">
+                            Más antiguas
+                        </Dropdown.Item>
+                        <Dropdown.Item href="#">
+                            Categoría
+                        </Dropdown.Item>
+                        </Dropdown.Menu>
+                    </Dropdown>

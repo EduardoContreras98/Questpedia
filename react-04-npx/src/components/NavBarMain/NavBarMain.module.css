@@ -1,0 +1,87 @@
+a{
+    color: black;
+    text-decoration: blue;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Navegation top*/
+.navmain{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:  100px;
+    width: 100%;
+    padding: 20px;
+    background: rgb(245, 159, 61);
+    position:relative;
+    z-index:50;
+}
+
+.navLogo{
+    width: 160px;
+}
+
+.searchbox{
+    /*background: white;*/
+    background: rgb(112, 112, 112);
+    transform: translate(0%,0%);
+    border-radius: 40px;
+    padding: 5px;
+}
+
+.searchbox ::placeholder{
+
+   color: white;
+}
+
+.searchbox:hover >.searchtxt{
+    height: 20px;
+    width: 500px;
+    padding: 0 6px;
+}
+
+
+.searchtxt{
+ width: 100px;
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: rgb(255, 255, 255);
+ font-size: 16px;
+ transition: 0.5s;
+ line-height: 25px;
+}
+
+.searchbtn{
+ color:  rgb(218, 137, 45);
+ 
+ float: right;
+}
+
+.nav_links{
+    position: relative;
+    right: 100px;
+}
+
+.nav_links a{
+    color: black;
+}
+
+.nav_links :hover{
+    color: rgb(233, 233, 233);
+}
+
+
+.nav_links :focus{
+    color: #555;
+}
+
+.navmain ul li{
+    padding: 10px;
+}

@@ -1,0 +1,79 @@
+
+  
+  ul#container {
+    width: 400px;
+    border: 2px solid rgba(0, 0, 0, 0.103);
+    padding: 5px;
+    margin: 10px;
+    height: 130px; 
+    overflow-y: auto;
+  }
+  
+  ul#container li{
+    overflow-y: auto;
+    cursor: pointer;
+  }
+  
+  ul#container li.active,
+  ul#container li:hover{
+    box-shadow: 0px -3px 0px rgba(255, 188, 86, 0.9) inset;
+    background: rgba(0, 0, 0, 0.103);
+    margin: 0px 0px 10px 0px;
+  }
+  
+  .Favoritos i{
+    color: blue;
+  }
+  
+  /*perfilactividad-favoritos*/
+  .navuser{
+    width: 100%;
+    z-index: -1;
+  }
+   
+  .navuser ul{
+     display: flex;
+     list-style-type: none;
+     height: 40px;
+     background: rgb(224, 224, 224);
+     box-shadow: 0px 2px 5px rgba(0, 0, 0, .2);
+  }
+   
+  .navuser ul li{
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    border-left: rgba(0, 0, 0, .2);
+    border-right: rgba(0, 0, 0, .2);
+    color: black;
+  }
+   
+  .navuser ul li.active,
+  .navuser ul li:hover{
+    box-shadow: 0px -3px 0px rgba(255, 188, 86, 0.9) inset;
+  }
+  
+  .profileposttab img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 10px;
+  }
+  
+  .imgBack{
+    background: linear-gradient(180deg,#b4b4b4 50%, white 50%);
+    border: rgba(0, 0, 0, 0.103) 1px solid;
+    height: 250px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn:hover{
+    background: #f39c12;
+    color: #111111;
+  }
+  
+
